@@ -1,0 +1,159 @@
+ls
+whoami
+pwd
+echo "hola"
+echo $home
+echo $HOME
+man echo
+man man
+cd repogit/
+ls
+git clone https://github.com/rociodegrazia/Repo_DeGrazia.git
+ls
+cd Repo_DeGrazia/
+ls
+clear
+history 
+history > historial.txt
+ls
+git status
+git add .
+git status 
+git commit -m "Mi primer commit"
+git config --global user.email "you@example.com"
+exit
+pwd
+ls
+cd repogit/
+ls
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls -l
+cd repogit/
+ls -l
+rm -r Repo_DeGrazia/
+sudo rm -r Repo_DeGrazia/
+ls -l
+git clone git@github.com:rociodegrazia/Repo_DeGrazia.git
+ls 
+ls -l
+cd Repo_DeGrazia/
+echo "hola" > hola.txt
+ls
+git status
+git add . 
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "you@example.com"
+rrocio.dg@hotmail.com
+[200~git config --global user.name "tu_usuario"
+git config --global user.email "rrocio.dg@hotmail.com"
+git config --global user.name "rociodegrazia"
+ssh -T git@github.com 
+git push
+git status
+git commit -m "Mi primer commmmmmmit"
+git push 
+cat /etc/passwd
+head /etc/passwd
+clear
+head /etc/passwd
+head -n2 /etc/passwd
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+grep bash /etc/passwd > archivo1.txt
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+clear
+sort archivo1.txt 
+cat << EOF > archivo2.txt
+linea 1
+linea 2
+linea 3
+EOF
+
+cat archivo3.txt
+cat archivo2.txt
+bc <<< 2+2
+cat chau.txt
+echo "Saludos" >> chau.txt
+cat chau.txt
+echo "Agrego otra linea mas" >> chau.txt
+cat chau.txt 
+cat archivo2.txt chau.txt > archivo3.txt
+cat archivo3.txt
+ls -l
+cpu-info
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+cat /proc/cpuinfo | grep name
+cat /proc/cpuinfo | grep name | head -n1
+[200~vagrant
+exit
+ls
+cd repogit/
+ls
+cd TP_AySO/
+grep cat /proc/cpuinfo
+cat /proc/cpuinfo
+clear
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt 
+ls
+cat datos_usuario.txt 
+git status
+git add .
+git status
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada 
+clear
+git status
+git add .
+git commit - "ADD: Listado de usuarios ordenada"
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net
+man -k "network traffic capture" | grep "tcpdump"
+echo 'man -k "network traffic capture" | grep "tcpdump"' >> comando_dump_net
+man -k "network traffic capture" | grep "tcpdump"
+cat comando_dump_net 
+clear
+cat comando_dump_net 
+git status
+ls
+cat comando_dump_net 
+git status 
+ls
+clear
+git status
+git add .
+git status
+clear
+ls
+git status
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: <Rocio De Grazia>
+División: <311>
+Turno: <Noche>
+EOF
+
+cat README.md 
+git status
+git add .
+git status
+git commit -m "Info de README actualizada"
+history -a >> ~/.bash_history
+cat ~/.bash_history
+history -a >> ~/.bash_history
